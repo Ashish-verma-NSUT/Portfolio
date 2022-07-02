@@ -574,7 +574,7 @@ nav ul li{
   text-transform: capitalize;
 }
 .skill__left__text{
-  color: #444;
+  color: rgb(255, 255, 255);
   padding-bottom: 20px;
   line-height: 24px;
   text-align: justify;
