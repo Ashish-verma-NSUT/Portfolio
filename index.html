@@ -55,7 +55,7 @@
                 <h2 class="nav__text">Hello, My name is</h2>
                 <h1 class="nav__name">Ashish Verma</h1>
                 <h3 class="nav__info">And I'm a <span class="typing"></span></h3>
-                <a href="https://github.com/Ashish-verma-NSUT" class="main__head__link">Hire Me</a>
+                <a href="./projects/Resume_Ashish.pdf" class="main__head__link" download>Download CV</a>
             </div>
         </div>
 
@@ -358,23 +358,24 @@
 
                     <div class="contact__right">
                         <div class="contact__right__title">Message Me</div>
-                        <form class="contact__form" action="#" method="POST">
+                        <form class="contact__form" action="https://formspree.io/f/moqrgajb"
+                        method="POST">
                             <div class="fields">
                                 <div class="field name">
-                                    <input type="text" class="fullname" placeholder="Name">
+                                    <input name = "name" type="text" class="fullname" placeholder="Name">
                                 </div>
                                 <div class="field email">
-                                    <input type="text" class="email-input" placeholder="Email">
+                                    <input name = "email" type="text" class="email-input" placeholder="Email">
                                 </div>
                             </div>
                             <div class="field">
-                                <input type="text" class="subject" placeholder="Subject">
+                                <input name = "subject" type="text" class="subject" placeholder="Subject">
                             </div>
                             <div class="field textarea">
-                                <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                                <textarea name = "message" class="message" cols="30" rows="10" placeholder="Message.."></textarea>
                             </div>
                             <div class="button">
-                                <button class="send__msg" type="submit" name="send">Send Message</button>
+                                <button class="send__msg" type="submit">Send Message</button>
                             </div>
                         </form>
                     </div>
