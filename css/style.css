@@ -146,12 +146,12 @@ nav {
   transition: all 0.5s ease;
   position: fixed;
   z-index: 9998;
-  background-color: rgb(92, 86, 86);
+  background-color: rgb(0, 0, 0);
 }
 nav.sticky{
   transition: 0.5s ease;
   padding: 15px 30px;
-  background-color: #4b504a;
+  background-color: #000000;
 }
 nav.sticky .logo{
   color: #fff;
@@ -226,12 +226,15 @@ nav ul li{
   text-transform: capitalize;
   color: #fff;
   padding: 8px 16px;
-  border: 1px solid blue;
+  border: 1px solid white;
   border-radius: 20px;
 }
 
 .nav__link:hover{
-  background-color: blue;
+  /* background-color: #46cdfa; */
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #46cdfa, #00B4DB); 
+  background: linear-gradient(to right, #22d7ff, #0076fd); 
   transition: 0.5s ease;
 }
 
@@ -305,7 +308,7 @@ nav ul li{
   font-size: 76px;
   font-weight: 900;
   font-style: italic;
-  color: #33ff00;
+  color: #fecb00;
   padding: 20px 0;
 }
 .nav__info{
@@ -316,7 +319,8 @@ nav ul li{
   padding-bottom: 20px;
 }
 .nav__info span{
-  color: #f3a600;
+  color: #46cdfa;
+  
   font-weight: 700;
   font-size: 36px;
 }
@@ -326,12 +330,15 @@ nav ul li{
   font-weight: 700;
   color: #fff;
   padding: 15px 30px;
-  border: 1px solid #33ff00;
+  border: 1px solid #46cdfa;
   border-radius: 24px;
   font-family: 'Roboto';
 }
 .main__head__link:hover{
-  background: #09ff00;
+  /* background: #46cdfa; */
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #46cdfa, #00B4DB); 
+  background: linear-gradient(to right, #22d7ff, #0076fd); 
   transition: 0.5s;
 }
 .header__main{
@@ -350,9 +357,9 @@ nav ul li{
 
 .info{
   padding: 100px 0;
-  background: #C9D6FF; 
-  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
-  background: linear-gradient(to right, #d4d1d1, #ced9ff); 
+  background: #252527; 
+  /* background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+  background: linear-gradient(to right, #d4d1d1, #ced9ff);  */
   flex-wrap: wrap;
 }
 .info .info__box{
@@ -371,24 +378,24 @@ nav ul li{
 .info__title{
   font-family: 'Roboto';
   font-weight: 700;
-  color: #33ff00;
+  color: #fecb00;
   font-size: 42px;  
   text-align: center;
 }
 .info__typing{
-  color: #444;
+  color: rgb(255, 255, 255);
   font-size: 24px;
   padding-bottom: 25px;
 }
 .typing__two{
-  color: #f3a600;
+  color: #fecb00;
 }
 .me{
-  color: #ffbb00;
+  color: #fecb00;
   font-weight: 800;
 }
 .info__text1{
-  color: #555;
+  color: rgb(255, 254, 254);
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
@@ -396,7 +403,7 @@ nav ul li{
 }
 .info__text2{
   text-align: justify;
-  color: #555;
+  color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 18px;
   padding: 25px 0 30px;
@@ -493,7 +500,6 @@ nav ul li{
 }
 
 
-/* Title Bottom Border text tecoration */
 .service,  .border__blog{
   display: flex;
   justify-content: center;
@@ -508,7 +514,7 @@ nav ul li{
   font-size: 18px;
   padding: 5px 8px;
   font-weight: bold;
-  color: #f3a600;
+  color: #46cdfa;
   position: relative;
   line-height: 20px;
 }
@@ -529,12 +535,12 @@ nav ul li{
   right: 0;
 }
 .border::before{
-  border-top: 2px solid #f3a600;
-  border-left: 2px solid #f3a600;
+  border-top: 2px solid #46cdfa;
+  border-left: 2px solid #46cdfa;
 }
 .border::after{
-  border-bottom: 2px solid #f3a600;
-  border-right: 2px solid #f3a600;
+  border-bottom: 2px solid #46cdfa;
+  border-right: 2px solid #46cdfa;
 }
 
 
@@ -543,7 +549,7 @@ nav ul li{
 /* Skills Styling! */
 .skills{
   padding: 100px 0;
-  background-color: rgb(60, 49, 49);
+  background-color: rgb(0, 0, 0);
 }
 .skill__blog{
   display: flex;
@@ -551,13 +557,13 @@ nav ul li{
   align-items: center;
 }
 .skill__title{
-  color: #33ff00;
+  color: #fecb00;
   text-align: center;
   font-size: 42px;
   font-weight: bold;
 }
 .skill__title span{
-  color: #f3a600;
+  color: #fecb00;
 }
 .skill__left{
   width: 550px;
@@ -568,9 +574,10 @@ nav ul li{
 .skill__left__title{
   font-size: 24px;
   margin-bottom: 20px;
+  color: white;
 }
 .skill__left__title span{
-  color: #f3a600;
+  color: #fecb00;
   text-transform: capitalize;
 }
 .skill__left__text{
@@ -583,6 +590,7 @@ nav ul li{
   display: inline-block;
   padding: 15px 25px;
   background-color: #33ff00;
+  
   font-size: 18px;
   border-radius: 30px;
   color: #fff;
@@ -609,6 +617,7 @@ nav ul li{
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 18px;
+  color: #fff;
 }
 .bars .line {
   height: 5px;
@@ -623,7 +632,12 @@ nav ul li{
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #33ff00;
+  /* background-color: #33ff00; */
+  /* background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+  background: linear-gradient(to right, #d4d1d1, #ced9ff);  */
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #46cdfa, #00B4DB); 
+  background: linear-gradient(to right, #22d7ff, #0076fd); 
 }
 .bars .html::before {
   width: 70%;
@@ -651,7 +665,7 @@ nav ul li{
 /* Projects Styling ! */
 
 .projects{
-  background-color: #111;
+  background-color: #000000;
   padding: 100px 0;
 }
 .carousel__card{
@@ -662,7 +676,7 @@ nav ul li{
   cursor: pointer;
 }
 .carousel__card:hover{
-  background-color: #33ff00;
+  background-color: #fecb00;
   transition: 0.5s ease;
   color: #fff;
 }
@@ -676,7 +690,7 @@ nav ul li{
 .project__title{
   text-align: center;
   font-weight: 900;
-  color: #33ff00;
+  color: #fecb00;
   font-size: 42px;  
 }
 .carousel__card:hover .carousel__title{
@@ -695,7 +709,7 @@ nav ul li{
   font-size: 24px;
   font-weight: 700;
   padding: 15px 0 10px;
-  color: #33ff00;
+  color: #fecb00;
   font-family: 'Roboto';
 }
 .carousel__text{
@@ -738,7 +752,7 @@ nav ul li{
   margin: 0 5px;
   outline: none!important;
   border-radius: 50%;
-  border: 2px solid #33ff00 !important;
+  border: 2px solid #46cdfa !important;
   transition: all 0.5s ease;
 }
 .owl-dot.active{
@@ -747,16 +761,19 @@ nav ul li{
   transition: 0.5s ease;
 }
 .owl-dot.active, .owl-dot:hover{
-  background-color: #33ff00 !important;
+  background-color: #46cdfa !important;
 }
 
 
 /* Contact styling */
-
+.contact{
+  background-color: #252527;
+}
 .contact .container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* background-color: 252527; */
 }
 .contact{
   padding: 100px 0;
@@ -772,21 +789,22 @@ nav ul li{
 .contact__title{
   text-align: center;
   font-weight: 900;
-  color: #33ff00;
+  color: #fecb00;
   font-size: 42px;  
 }
 .contact__title span{
-  color: #f3a600;
+  color: #fecb00;
 }
 .contact__blog__title{
   font-size: 24px;
   padding-bottom: 20px;
   font-weight: 500;
+  color: #fecb00;
 }
 
 .contact__text{
   font-weight: 400;
-  color: #222;
+  color: rgb(255, 255, 255);
   line-height: 24px;
   text-align: justify;
   padding-bottom: 15px;
@@ -797,16 +815,16 @@ nav ul li{
 }
 .row i{
   font-size: 25px;
-  color: #33ff00;
+  color: #fecb00;
 }
 .name{
   font-weight: 500;
   padding-bottom: 5px;
-  color: #000;
+  color: #fecb00;
 }
 .sur-name{
   font-weight: 400;
-  color: #555;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -816,6 +834,7 @@ nav ul li{
   margin-bottom: 25px;
   font-size: 24px;
   font-family: 'Roboto';
+  color: #fecb00;
   
 }
  form .fields{
@@ -857,8 +876,14 @@ form .textarea textarea{
 .send__msg{
   width: 100%;
   height: 100%;
-  border: 2px solid #33ff00;
-  background: #33ff00;
+  border: 2px solid #00B4DB;
+  /* background: #fecb00; */
+  /* background: #f15f11;
+  background: -webkit-linear-gradient(to right, #f5af19, #f15f11);
+  background: linear-gradient(to right, #f5af19, #f15f11);  */
+  background: #00B4DB;
+  background: -webkit-linear-gradient(to right, #46cdfa, #00B4DB); 
+  background: linear-gradient(to right, #22d7ff, #0076fd); 
   color: #fff;
   border-radius: 10px;
   font-size: 18px;
@@ -868,7 +893,8 @@ form .textarea textarea{
 }
 .send__msg:hover{
   background: none;
-  color: #33ff00;
+  color: #00B4DB;
+
 }
 
 
@@ -880,7 +906,7 @@ footer{
   text-align: center;
 }
 .foot__span{
-  color: #33ff00;
+  color: #fecb00;
   font-weight: bold;
   font-family: 'Roboto';
   text-decoration: none;
