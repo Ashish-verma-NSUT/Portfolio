@@ -35,21 +35,21 @@ $(document).ready(function(){
 
     // Typed animating
     var type = new Typed(".typing", {
-        strings: ["Web Developer", "Web Designer"],
+        strings: ["Web Developer", "Competitive Programmer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true 
     });
 
     var type = new Typed(".typing__two", {
-        strings: ["Web Developer", "Web Designer"],
+        strings: ["Web Developer", "Competitive Programmer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true 
     });
 
     var type = new Typed(".typing-3", {
-        strings: ["Experiences.", "Skills"],
+        strings: ["Experiences", "Skills"],
         typeSpeed: 110,
         backSpeed: 70,
         loop: true 

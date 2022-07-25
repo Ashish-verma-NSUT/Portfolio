@@ -312,7 +312,7 @@
   nav.sticky{
     transition: 0.5s ease;
     padding: 15px 0;
-    background-color: #33ff00;
+    background-color: #000;
     color: #fff;
   }
   nav.sticky .logo{
@@ -322,19 +322,19 @@
     color: #fff;
   }
   nav.sticky .nav__link{
-    border: 1px solid #33ff00;
+    border: 1px solid #000;
   }
   nav.sticky .nav__link:hover{
-    background-color: #33ff00ec;
+    background-color: #000;
   }
   nav.sticky .search{
-  background: #52c234;
-  background: -webkit-linear-gradient(to right, #2a800b, #52c234);
+  background: #000;
+  background: -webkit-linear-gradient(to right, #2a800b, #000);
   background: linear-gradient(to right, #68fd3f, #40ff00);
   }
   nav.sticky .search__button{
-  background: #52c234;
-  background: -webkit-linear-gradient(to right, #2a800b, #52c234);
+  background: #000;
+  background: -webkit-linear-gradient(to right, #2a800b, #000);
   background: linear-gradient(to right, #64ff39, #63ff2e); 
   }
 }
